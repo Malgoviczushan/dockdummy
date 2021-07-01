@@ -1,0 +1,2 @@
+Lscpu
+Ls
