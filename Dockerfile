@@ -1,5 +1,9 @@
 FROM alpine:3.10
 
-COPY entrypoint.sh /entrypoint.sh
+COPY Test/testsc.sh /entrypoint.sh
+
+CMD chmod 777 entrypoint.sh
+
+RUN ./entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
