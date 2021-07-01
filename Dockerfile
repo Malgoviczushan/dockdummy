@@ -1,4 +1,5 @@
-FROM alpine:3.10
+FROM ubuntu:18.04
+#FROM alpine:3.10
 
 RUN ls
 COPY Test/testsc.sh /entrypoint.sh
