@@ -1,5 +1,5 @@
 FROM alpine:3.10
-WORKDIR /home 
+
 RUN ls
 COPY Test/testsc.sh /entrypoint.sh
 RUN ls
