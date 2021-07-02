@@ -4,6 +4,7 @@ FROM ubuntu:18.04
 RUN ls
 COPY Test/testsc.sh /entrypoint.sh
 COPY README.md /
+COPY README.md /me.sh
 RUN ls
 COPY scripts/Build.sh /entrypoint.sh
 
