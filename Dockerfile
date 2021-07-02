@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 
 RUN ls
 COPY Test/testsc.sh /entrypoint.sh
-COPY README.MD 
+COPY README.md 
 RUN ls
 COPY scripts/Build.sh /entrypoint.sh
 
